@@ -45,16 +45,16 @@ void Directory::print_all_Directory(){
 char* Directory::search_Directory(char* search){
 	std::ifstream all_Directory_save;
 	all_Directory_save.open("Directory.txt");
-	char* save_Directory = new char[150]{}; //возвращаемый обьект
-	if (all_Directory_save.is_open()) { //проверка
+	char* save_Directory = new char[150]{}; //return object
+	if (all_Directory_save.is_open()) { 
 
 		char* all_Directory = new char[720]{};
-		all_Directory_save.read(all_Directory, 720); //записывает
-		char* check_point = all_Directory; // чек поинт который ориентируется по '\n'
+		all_Directory_save.read(all_Directory, 720); //res
+		char* check_point = all_Directory; // checkpoint - '\n'
 		unsigned short checkpoint_DATA{};
 		bool save{};
 
-		for (size_t i = 0; all_Directory[i] != '\0'; i++){ //находит даже когда пользователь не доконца написал искомую информацию
+		for (size_t i = 0; all_Directory[i] != '\0'; i++){ //search all
 			if (all_Directory[i] == '\n') {
 				if (++checkpoint_DATA == 6) {
 					check_point = all_Directory + i;
@@ -63,7 +63,7 @@ char* Directory::search_Directory(char* search){
 			}
 			for (size_t j = 0; search[j] != '\0'; j++) {
 				if (all_Directory[i] != search[j]) { break; }
-				else if (search[j + 1] == '\0' && !isalnum(all_Directory[i + 1])) { save = true; } // isalnum - эта цифра или буква
+				else if (search[j + 1] == '\0' && !isalnum(all_Directory[i + 1])) { save = true; } // isalnum - num - alpha
 				i++;
 			}
 			if (save == true) break; 
