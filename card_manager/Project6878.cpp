@@ -12,9 +12,9 @@ int main(){
 	check adc(100, days::day, board_categories::clothes);
 	check qwe(100, days::day, board_categories::clothes);
 	card_system q{};
-	q.add_card(b);
+	q.add_card(b); // тут тоже
 	q.add_card(qw);
-	q.pay(abc, 1, 1979);
+	q.pay(abc, 1, 1979);// тут ошибка
 	std::cout << q;
 	return NULL;
 }
