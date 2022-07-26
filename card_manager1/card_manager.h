@@ -4,7 +4,7 @@
 
 enum type_card { debit = 1, credit };
 enum days { day, week, month };
-enum board_categories { food, taxi, clothes , communal_apartment , video_games };
+enum board_categories { food, taxi, clothes, communal_apartment, video_games };
 
 
 class check;
@@ -12,17 +12,16 @@ class card_system;
 class card {
 public:
 	card();
-	card(type_card ,unsigned short ,unsigned short , long long , std::string , std::string);
-	~card();
+	card(type_card, unsigned short, unsigned short, long long, std::string, std::string);
 	friend std::ostream& operator << (std::ostream&, card&);
 	friend card_system;
 private:
 	char use_card{};
 	unsigned short cvv{};
 	unsigned short code{};
-	type_card _type_card = type_card::credit;			
-	long long balance{};//желательно float но я решил так 
-	long long card_number{}; 
+	type_card _type_card = type_card::credit;
+	long long balance{};//use to float
+	long long card_number{};
 	std::string* user_type_card{};
 	std::string* name_user{};
 	std::string* surname_user{};
@@ -30,7 +29,7 @@ private:
 
 class check {
 public:
-	check(unsigned long , days , board_categories);
+	check(unsigned long, days, board_categories);
 	friend card_system;
 	bool operator  <(check);
 	friend std::ostream& operator <<(std::ostream&, check);
@@ -45,13 +44,15 @@ private:
 class card_system {
 public:
 	card_system();
-	~card_system();
+	void refill(long long,unsigned long);
 	void add_card(card);
-	void pay(check& , unsigned short , unsigned short);
+	void pay(check&, unsigned short, unsigned short);
 	friend std::ostream& operator <<(std::ostream&, card_system);
+	void save_all();
 private:
-	std::vector <card> *user_cards{};
-	std::vector <check> *check_history{};
+	void save_status_check();
+	void save_status_category();
+	std::vector <std::shared_ptr<card>>* user_cards{};
+	std::vector <std::shared_ptr<check>>* check_history{};
 	std::pair<std::string, int>** list_category{};
 };
-
