@@ -3,6 +3,7 @@
 #include <algorithm>
 #include <fstream>
 #include <vector>
+#include <functional>
 
 card::card() = default;
 card::card(type_card _type_card, unsigned short code, unsigned short cvv, long long card_number, std::string name_user, std::string surname_user) {
@@ -87,6 +88,7 @@ card_system::card_system() {
 	for (size_t i = 0; i < 3; i++) this->list_category[i] = new std::pair<std::string, int>[] { {"food", {}}, { "taxi",{} }, { "clothes",{} }, { "comunal apartment",{} }, { "video games",{} } };
 }
 
+
 void card_system::refill(long long number, unsigned long sum){
 	for (auto& i : *this->user_cards){
 		if (i.get()->card_number == number) {
@@ -118,7 +120,7 @@ void card_system::save_status_check() {
 	out.close();
 }
 
-void card_system::save_all() {
+void card_system::save_all() { //при желании можно добавить функтор
 	std::ofstream out{ "save.txt" , std::ios::app };
 	if (out.is_open()) {
 		for (size_t i = 0; i < this->user_cards->size(); i++)
@@ -133,17 +135,19 @@ void card_system::save_all() {
 	out.close();
 }
 
-void sort_category(std::pair<std::string, int>*other) {
-	for (size_t i = 0; i < 5; i++) {
-		for (size_t j = 0; j < 5; j++) {
-			if (other[i].second > other[j].second)
-				swap(other[i], other[j]);
-		}
-	}
-}
+void card_system::save_status_category() { 
 
-void card_system::save_status_category() {
-	for (size_t i = 0; i < 3; i++) sort_category(this->list_category[i]);
+	std::function<void(std::pair<std::string, int>* other)> my_sort{}; //функция эта тоже переменная значит ее можно хранить
+	my_sort = [](std::pair<std::string, int>* other) { //функция эта тоже переменная значит ее можно хранить
+		for (size_t i = 0; i < 5; i++) {
+			for (size_t j = 0; j < 5; j++) {
+				if (other[i].second > other[j].second)
+					swap(other[i], other[j]);
+			}
+		}
+	};
+
+	for (size_t i = 0; i < 3; i++) my_sort(this->list_category[i]);
 	std::ofstream out{ "save.txt" , std::ios::app };
 	if (out.is_open()) {
 		out << "\ntop 3 category :";
