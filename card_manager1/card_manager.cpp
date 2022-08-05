@@ -83,7 +83,7 @@ std::ostream& operator <<(std::ostream & out, check other) {
 card_system::card_system() {
 	this->user_cards = new std::vector <std::shared_ptr<card>>{};
 	this->check_history = new std::vector<std::shared_ptr<check>>{};///
-	this->check_history->reserve(40); //для удобство
+	this->check_history->reserve(40); //Г¤Г«Гї ГіГ¤Г®ГЎГ±ГІГўГ®
 	this->list_category = new std::pair<std::string, int>*[3]{};
 	for (size_t i = 0; i < 3; i++) this->list_category[i] = new std::pair<std::string, int>[] { {"food", {}}, { "taxi",{} }, { "clothes",{} }, { "comunal apartment",{} }, { "video games",{} } };
 }
@@ -120,7 +120,7 @@ void card_system::save_status_check() {
 	out.close();
 }
 
-void card_system::save_all() { //при желании можно добавить функтор
+void card_system::save_all() { //РїСЂРё Р¶РµР»Р°РЅРёРё РјРѕР¶РЅРѕ РґРѕР±Р°РІРёС‚СЊ С„СѓРЅРєС‚РѕСЂ
 	std::ofstream out{ "save.txt" , std::ios::app };
 	if (out.is_open()) {
 		for (size_t i = 0; i < this->user_cards->size(); i++)
@@ -137,8 +137,8 @@ void card_system::save_all() { //при желании можно добавить функтор
 
 void card_system::save_status_category() { 
 
-	std::function<void(std::pair<std::string, int>* other)> my_sort{}; //функция эта тоже переменная значит ее можно хранить
-	my_sort = [](std::pair<std::string, int>* other) { //функция эта тоже переменная значит ее можно хранить
+	std::function<void(std::pair<std::string, int>* other)> my_sort{}; //С„СѓРЅРєС†РёСЏ СЌС‚Р° С‚РѕР¶Рµ РїРµСЂРµРјРµРЅРЅР°СЏ Р·РЅР°С‡РёС‚ РµРµ РјРѕР¶РЅРѕ С…СЂР°РЅРёС‚СЊ
+	my_sort = [](std::pair<std::string, int>* other) { //С„СѓРЅРєС†РёСЏ СЌС‚Р° С‚РѕР¶Рµ РїРµСЂРµРјРµРЅРЅР°СЏ Р·РЅР°С‡РёС‚ РµРµ РјРѕР¶РЅРѕ С…СЂР°РЅРёС‚СЊ
 		for (size_t i = 0; i < 5; i++) {
 			for (size_t j = 0; j < 5; j++) {
 				if (other[i].second > other[j].second)
