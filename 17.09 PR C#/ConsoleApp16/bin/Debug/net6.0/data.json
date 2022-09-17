@@ -1,0 +1,1 @@
+{"$type":"System.Collections.Generic.List`1[[DeserializeTest.Iserializable, ConsoleApp16]], System.Private.CoreLib","$values":[{"$type":"DeserializeTest.Person, ConsoleApp16","Name":"Elvin","Surname":"Azimov","Age":20},{"$type":"DeserializeTest.Person, ConsoleApp16","Name":"Omar","Surname":"Haciyev","Age":20}]}
