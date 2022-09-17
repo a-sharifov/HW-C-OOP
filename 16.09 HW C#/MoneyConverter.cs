@@ -6,7 +6,6 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp14
 {
-    [Serializable]
     internal class MoneyConverter
     {
         public string? date { get; set; }
@@ -15,7 +14,6 @@ namespace ConsoleApp14
         public float result { get; set; }
         public bool success { get; set; }
 
-        public override string ToString() => $"{this.query.from}: {this.query.amount} == {this.query.to}: {this.result}";
         public class Info
         {
             public float rate { get; set; }
@@ -28,7 +26,7 @@ namespace ConsoleApp14
             public string from { get; set; }
             public string to { get; set; }
         }
-
+        public override string ToString() => $"{query.from}: {query.amount} == {query.to}: {result}";
     }
 }
 

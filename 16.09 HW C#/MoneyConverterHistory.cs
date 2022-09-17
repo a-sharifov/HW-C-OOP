@@ -10,42 +10,21 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp14
 {
-    [Serializable]
     internal class MoneyConverterHistory
     {
-        public LinkedList<MoneyConverter> History { get; set; }
-        public int Count
-        {
-            get
-            {
-                if(History == null) return 0;
-                return History.Count;
-            }
-        }
-        public MoneyConverterHistory(params MoneyConverter[]? moneyConverters)
-        {
-            History = new LinkedList<MoneyConverter>();
-            if(moneyConverters!= null)
-            foreach (var item in moneyConverters)
-            {
-                this.AddToHistory(item);
-            }
-        }
+        public LinkedList<MoneyConverter> History { get; set; } = new LinkedList<MoneyConverter>();
+
         public void AddToHistory(MoneyConverter money)
         {
-            this.History?.AddLast(money);
+            history.AddLast(money);
         }
-
         public override string ToString()
         {
             var builder = new StringBuilder();
-            if (this.History != null)
-            {
-                foreach (var item in this.History)
+                foreach (var item in history)
                 {
                     builder.Append($"{item.ToString()}\n");
                 }
-            }
             return builder.ToString();
         }
     }
