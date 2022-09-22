@@ -1,0 +1,17 @@
+C:\Users\UserTul\source\repos\ConsoleApp17\ConsoleApp17\bin\Debug\net6.0\ConsoleApp17.exe
+C:\Users\UserTul\source\repos\ConsoleApp17\ConsoleApp17\bin\Debug\net6.0\ConsoleApp17.deps.json
+C:\Users\UserTul\source\repos\ConsoleApp17\ConsoleApp17\bin\Debug\net6.0\ConsoleApp17.runtimeconfig.json
+C:\Users\UserTul\source\repos\ConsoleApp17\ConsoleApp17\bin\Debug\net6.0\ConsoleApp17.dll
+C:\Users\UserTul\source\repos\ConsoleApp17\ConsoleApp17\bin\Debug\net6.0\ConsoleApp17.pdb
+C:\Users\UserTul\source\repos\ConsoleApp17\ConsoleApp17\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\UserTul\source\repos\ConsoleApp17\ConsoleApp17\obj\Debug\net6.0\ConsoleApp17.csproj.AssemblyReference.cache
+C:\Users\UserTul\source\repos\ConsoleApp17\ConsoleApp17\obj\Debug\net6.0\ConsoleApp17.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\UserTul\source\repos\ConsoleApp17\ConsoleApp17\obj\Debug\net6.0\ConsoleApp17.AssemblyInfoInputs.cache
+C:\Users\UserTul\source\repos\ConsoleApp17\ConsoleApp17\obj\Debug\net6.0\ConsoleApp17.AssemblyInfo.cs
+C:\Users\UserTul\source\repos\ConsoleApp17\ConsoleApp17\obj\Debug\net6.0\ConsoleApp17.csproj.CoreCompileInputs.cache
+C:\Users\UserTul\source\repos\ConsoleApp17\ConsoleApp17\obj\Debug\net6.0\ConsoleApp17.csproj.CopyComplete
+C:\Users\UserTul\source\repos\ConsoleApp17\ConsoleApp17\obj\Debug\net6.0\ConsoleApp17.dll
+C:\Users\UserTul\source\repos\ConsoleApp17\ConsoleApp17\obj\Debug\net6.0\refint\ConsoleApp17.dll
+C:\Users\UserTul\source\repos\ConsoleApp17\ConsoleApp17\obj\Debug\net6.0\ConsoleApp17.pdb
+C:\Users\UserTul\source\repos\ConsoleApp17\ConsoleApp17\obj\Debug\net6.0\ConsoleApp17.genruntimeconfig.cache
+C:\Users\UserTul\source\repos\ConsoleApp17\ConsoleApp17\obj\Debug\net6.0\ref\ConsoleApp17.dll

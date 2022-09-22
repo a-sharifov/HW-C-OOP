@@ -1,0 +1,15 @@
+C:\Users\Wayne\Desktop\Exception\Exception\bin\Debug\net7.0\Exception.exe
+C:\Users\Wayne\Desktop\Exception\Exception\bin\Debug\net7.0\Exception.deps.json
+C:\Users\Wayne\Desktop\Exception\Exception\bin\Debug\net7.0\Exception.runtimeconfig.json
+C:\Users\Wayne\Desktop\Exception\Exception\bin\Debug\net7.0\Exception.dll
+C:\Users\Wayne\Desktop\Exception\Exception\bin\Debug\net7.0\Exception.pdb
+C:\Users\Wayne\Desktop\Exception\Exception\obj\Debug\net7.0\Exception.csproj.AssemblyReference.cache
+C:\Users\Wayne\Desktop\Exception\Exception\obj\Debug\net7.0\Exception.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Wayne\Desktop\Exception\Exception\obj\Debug\net7.0\Exception.AssemblyInfoInputs.cache
+C:\Users\Wayne\Desktop\Exception\Exception\obj\Debug\net7.0\Exception.AssemblyInfo.cs
+C:\Users\Wayne\Desktop\Exception\Exception\obj\Debug\net7.0\Exception.csproj.CoreCompileInputs.cache
+C:\Users\Wayne\Desktop\Exception\Exception\obj\Debug\net7.0\Exception.dll
+C:\Users\Wayne\Desktop\Exception\Exception\obj\Debug\net7.0\refint\Exception.dll
+C:\Users\Wayne\Desktop\Exception\Exception\obj\Debug\net7.0\Exception.pdb
+C:\Users\Wayne\Desktop\Exception\Exception\obj\Debug\net7.0\Exception.genruntimeconfig.cache
+C:\Users\Wayne\Desktop\Exception\Exception\obj\Debug\net7.0\ref\Exception.dll

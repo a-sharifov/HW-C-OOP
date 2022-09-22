@@ -1,0 +1,15 @@
+C:\Users\UserTul\Desktop\FBAS_4217_RU\C#\Exception\Exception\bin\Debug\net6.0\ExceptionLesson.exe
+C:\Users\UserTul\Desktop\FBAS_4217_RU\C#\Exception\Exception\bin\Debug\net6.0\ExceptionLesson.deps.json
+C:\Users\UserTul\Desktop\FBAS_4217_RU\C#\Exception\Exception\bin\Debug\net6.0\ExceptionLesson.runtimeconfig.json
+C:\Users\UserTul\Desktop\FBAS_4217_RU\C#\Exception\Exception\bin\Debug\net6.0\ExceptionLesson.dll
+C:\Users\UserTul\Desktop\FBAS_4217_RU\C#\Exception\Exception\bin\Debug\net6.0\ExceptionLesson.pdb
+C:\Users\UserTul\Desktop\FBAS_4217_RU\C#\Exception\Exception\obj\Debug\net6.0\ExceptionLesson.csproj.AssemblyReference.cache
+C:\Users\UserTul\Desktop\FBAS_4217_RU\C#\Exception\Exception\obj\Debug\net6.0\ExceptionLesson.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\UserTul\Desktop\FBAS_4217_RU\C#\Exception\Exception\obj\Debug\net6.0\ExceptionLesson.AssemblyInfoInputs.cache
+C:\Users\UserTul\Desktop\FBAS_4217_RU\C#\Exception\Exception\obj\Debug\net6.0\ExceptionLesson.AssemblyInfo.cs
+C:\Users\UserTul\Desktop\FBAS_4217_RU\C#\Exception\Exception\obj\Debug\net6.0\ExceptionLesson.csproj.CoreCompileInputs.cache
+C:\Users\UserTul\Desktop\FBAS_4217_RU\C#\Exception\Exception\obj\Debug\net6.0\ExceptionLesson.dll
+C:\Users\UserTul\Desktop\FBAS_4217_RU\C#\Exception\Exception\obj\Debug\net6.0\refint\ExceptionLesson.dll
+C:\Users\UserTul\Desktop\FBAS_4217_RU\C#\Exception\Exception\obj\Debug\net6.0\ExceptionLesson.pdb
+C:\Users\UserTul\Desktop\FBAS_4217_RU\C#\Exception\Exception\obj\Debug\net6.0\ExceptionLesson.genruntimeconfig.cache
+C:\Users\UserTul\Desktop\FBAS_4217_RU\C#\Exception\Exception\obj\Debug\net6.0\ref\ExceptionLesson.dll

@@ -1,0 +1,15 @@
+C:\Users\Wayne\Desktop\Exception\Exception\obj\Debug\net7.0\ExceptionLesson.csproj.AssemblyReference.cache
+C:\Users\Wayne\Desktop\Exception\Exception\obj\Debug\net7.0\ExceptionLesson.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Wayne\Desktop\Exception\Exception\obj\Debug\net7.0\ExceptionLesson.AssemblyInfoInputs.cache
+C:\Users\Wayne\Desktop\Exception\Exception\obj\Debug\net7.0\ExceptionLesson.AssemblyInfo.cs
+C:\Users\Wayne\Desktop\Exception\Exception\obj\Debug\net7.0\ExceptionLesson.csproj.CoreCompileInputs.cache
+C:\Users\Wayne\Desktop\Exception\Exception\bin\Debug\net7.0\ExceptionLesson.exe
+C:\Users\Wayne\Desktop\Exception\Exception\bin\Debug\net7.0\ExceptionLesson.deps.json
+C:\Users\Wayne\Desktop\Exception\Exception\bin\Debug\net7.0\ExceptionLesson.runtimeconfig.json
+C:\Users\Wayne\Desktop\Exception\Exception\bin\Debug\net7.0\ExceptionLesson.dll
+C:\Users\Wayne\Desktop\Exception\Exception\bin\Debug\net7.0\ExceptionLesson.pdb
+C:\Users\Wayne\Desktop\Exception\Exception\obj\Debug\net7.0\ExceptionLesson.dll
+C:\Users\Wayne\Desktop\Exception\Exception\obj\Debug\net7.0\refint\ExceptionLesson.dll
+C:\Users\Wayne\Desktop\Exception\Exception\obj\Debug\net7.0\ExceptionLesson.pdb
+C:\Users\Wayne\Desktop\Exception\Exception\obj\Debug\net7.0\ExceptionLesson.genruntimeconfig.cache
+C:\Users\Wayne\Desktop\Exception\Exception\obj\Debug\net7.0\ref\ExceptionLesson.dll
